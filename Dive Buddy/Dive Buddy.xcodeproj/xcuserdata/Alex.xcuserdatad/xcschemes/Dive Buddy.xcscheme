@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAFC33B41CEA844B006BE4DC"
+               BlueprintIdentifier = "FAFC34C11CEA9476006BE4DC"
                BuildableName = "Dive Buddy.app"
                BlueprintName = "Dive Buddy"
                ReferencedContainer = "container:Dive Buddy.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAFC33B41CEA844B006BE4DC"
+            BlueprintIdentifier = "FAFC34C11CEA9476006BE4DC"
             BuildableName = "Dive Buddy.app"
             BlueprintName = "Dive Buddy"
             ReferencedContainer = "container:Dive Buddy.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAFC33B41CEA844B006BE4DC"
+            BlueprintIdentifier = "FAFC34C11CEA9476006BE4DC"
             BuildableName = "Dive Buddy.app"
             BlueprintName = "Dive Buddy"
             ReferencedContainer = "container:Dive Buddy.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAFC33B41CEA844B006BE4DC"
+            BlueprintIdentifier = "FAFC34C11CEA9476006BE4DC"
             BuildableName = "Dive Buddy.app"
             BlueprintName = "Dive Buddy"
             ReferencedContainer = "container:Dive Buddy.xcodeproj">
