@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Dive Buddy.xcodeproj">
+      location = "group:Dive Buddy/Dive Buddy.xcodeproj">
    </FileRef>
 </Workspace>

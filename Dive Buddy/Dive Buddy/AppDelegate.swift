@@ -8,12 +8,40 @@
 
 import UIKit
 import CoreData
-
+import Contacts
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var store = CNContactStore()
 
+    
+    func requestForAccess(completionHandler: (accessGranted: Bool) -> Void) {
+        let authorizationStatus = CNContactStore.authorizationStatusForEntityType(CNEntityType.Contacts)
+        
+        switch authorizationStatus {
+        case .Authorized:
+            completionHandler(accessGranted: true)
+            
+        case .Denied, .NotDetermined:
+            store.requestAccessForEntityType(CNEntityType.Contacts, completionHandler: { (access, accessError) -> Void in
+                if access {
+                    completionHandler(accessGranted: access)
+                }
+                else {
+                    if authorizationStatus == CNAuthorizationStatus.Denied {
+                        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                            let message = "\(accessError!.localizedDescription)\n\nPlease allow the app to access your contacts through the Settings."
+                            print(message)
+                        })
+                    }
+                }
+            })
+            
+        default:
+            completionHandler(accessGranted: false)
+        }
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.

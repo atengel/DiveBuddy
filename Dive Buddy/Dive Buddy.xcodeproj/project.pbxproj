@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA064C081D002465009616AB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA064C071D002465009616AB /* Social.framework */; };
+		FA3786751CEAC09100B729E2 /* NewDiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3786741CEAC09100B729E2 /* NewDiveTableViewController.swift */; };
+		FA5CE6C31D043FBB00E29012 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CE6C21D043FBB00E29012 /* SettingsViewController.swift */; };
+		FA865FE51CFA6B1E00901A82 /* UploadPhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA865FE41CFA6B1E00901A82 /* UploadPhotoViewCell.swift */; };
+		FA865FE81CFA6DA100901A82 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA865FE71CFA6DA100901A82 /* PhotoTableViewCell.swift */; };
+		FA865FEA1CFFED7500901A82 /* ExamineDiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA865FE91CFFED7500901A82 /* ExamineDiveTableViewController.swift */; };
+		FAC3DEEC1CF92DE400AD7AB7 /* DiveHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3DEEB1CF92DE400AD7AB7 /* DiveHistoryViewController.swift */; };
+		FAC3DEEE1CF92F5F00AD7AB7 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3DEED1CF92F5F00AD7AB7 /* CoreDataTableViewController.swift */; };
+		FAC3DEF01CF95EAF00AD7AB7 /* DiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3DEEF1CF95EAF00AD7AB7 /* DiveTableViewCell.swift */; };
+		FADCE2341D042CEC002AA21F /* InspectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADCE2331D042CEC002AA21F /* InspectImageViewController.swift */; };
+		FAFC303C1CEC42E80087884E /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC30381CEC42E80087884E /* Image+CoreDataProperties.swift */; };
+		FAFC303D1CEC42E80087884E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC30391CEC42E80087884E /* Image.swift */; };
+		FAFC303E1CEC42E80087884E /* DiveInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC303A1CEC42E80087884E /* DiveInfo+CoreDataProperties.swift */; };
+		FAFC303F1CEC42E80087884E /* DiveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC303B1CEC42E80087884E /* DiveInfo.swift */; };
+		FAFC30431CEE57CD0087884E /* PickLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC30421CEE57CD0087884E /* PickLocationViewController.swift */; };
 		FAFC34C61CEA9476006BE4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC34C51CEA9476006BE4DC /* AppDelegate.swift */; };
 		FAFC34CB1CEA9476006BE4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFC34C91CEA9476006BE4DC /* Main.storyboard */; };
 		FAFC34CE1CEA9476006BE4DC /* Dive_Buddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFC34CC1CEA9476006BE4DC /* Dive_Buddy.xcdatamodeld */; };
@@ -15,6 +30,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA064C071D002465009616AB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FA3786741CEAC09100B729E2 /* NewDiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDiveTableViewController.swift; sourceTree = "<group>"; };
+		FA5CE6C21D043FBB00E29012 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FA865FE41CFA6B1E00901A82 /* UploadPhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewCell.swift; sourceTree = "<group>"; };
+		FA865FE71CFA6DA100901A82 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		FA865FE91CFFED7500901A82 /* ExamineDiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamineDiveTableViewController.swift; sourceTree = "<group>"; };
+		FAC3DEEB1CF92DE400AD7AB7 /* DiveHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveHistoryViewController.swift; sourceTree = "<group>"; };
+		FAC3DEED1CF92F5F00AD7AB7 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		FAC3DEEF1CF95EAF00AD7AB7 /* DiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveTableViewCell.swift; sourceTree = "<group>"; };
+		FADCE2331D042CEC002AA21F /* InspectImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectImageViewController.swift; sourceTree = "<group>"; };
+		FAFC30381CEC42E80087884E /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAFC30391CEC42E80087884E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		FAFC303A1CEC42E80087884E /* DiveInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DiveInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAFC303B1CEC42E80087884E /* DiveInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveInfo.swift; sourceTree = "<group>"; };
+		FAFC30421CEE57CD0087884E /* PickLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickLocationViewController.swift; sourceTree = "<group>"; };
 		FAFC34C21CEA9476006BE4DC /* Dive Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dive Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFC34C51CEA9476006BE4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFC34CA1CEA9476006BE4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,15 +59,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA064C081D002465009616AB /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA865FE61CFA6B2600901A82 /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA865FE71CFA6DA100901A82 /* PhotoTableViewCell.swift */,
+				FA865FE41CFA6B1E00901A82 /* UploadPhotoViewCell.swift */,
+				FAC3DEEF1CF95EAF00AD7AB7 /* DiveTableViewCell.swift */,
+			);
+			name = "View Cells";
+			sourceTree = "<group>";
+		};
+		FAFC30401CEC42EE0087884E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC30381CEC42E80087884E /* Image+CoreDataProperties.swift */,
+				FAFC30391CEC42E80087884E /* Image.swift */,
+				FAC3DEED1CF92F5F00AD7AB7 /* CoreDataTableViewController.swift */,
+				FAFC34CC1CEA9476006BE4DC /* Dive_Buddy.xcdatamodeld */,
+				FAFC303A1CEC42E80087884E /* DiveInfo+CoreDataProperties.swift */,
+				FAFC303B1CEC42E80087884E /* DiveInfo.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		FAFC30411CEC43230087884E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CE6C21D043FBB00E29012 /* SettingsViewController.swift */,
+				FADCE2331D042CEC002AA21F /* InspectImageViewController.swift */,
+				FA865FE91CFFED7500901A82 /* ExamineDiveTableViewController.swift */,
+				FAC3DEEB1CF92DE400AD7AB7 /* DiveHistoryViewController.swift */,
+				FAFC30421CEE57CD0087884E /* PickLocationViewController.swift */,
+				FA3786741CEAC09100B729E2 /* NewDiveTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		FAFC34B91CEA9476006BE4DC = {
 			isa = PBXGroup;
 			children = (
+				FA064C071D002465009616AB /* Social.framework */,
 				FAFC34C41CEA9476006BE4DC /* Dive Buddy */,
 				FAFC34C31CEA9476006BE4DC /* Products */,
 			);
@@ -54,12 +122,14 @@
 		FAFC34C41CEA9476006BE4DC /* Dive Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				FAFC30401CEC42EE0087884E /* CoreData */,
 				FAFC34C51CEA9476006BE4DC /* AppDelegate.swift */,
 				FAFC34C91CEA9476006BE4DC /* Main.storyboard */,
+				FA865FE61CFA6B2600901A82 /* View Cells */,
+				FAFC30411CEC43230087884E /* Controllers */,
 				FAFC34CF1CEA9476006BE4DC /* Assets.xcassets */,
 				FAFC34D11CEA9476006BE4DC /* LaunchScreen.storyboard */,
 				FAFC34D41CEA9476006BE4DC /* Info.plist */,
-				FAFC34CC1CEA9476006BE4DC /* Dive_Buddy.xcdatamodeld */,
 			);
 			path = "Dive Buddy";
 			sourceTree = "<group>";
@@ -96,6 +166,7 @@
 				TargetAttributes = {
 					FAFC34C11CEA9476006BE4DC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 96H4FCSBZ3;
 					};
 				};
 			};
@@ -137,6 +208,20 @@
 			files = (
 				FAFC34C61CEA9476006BE4DC /* AppDelegate.swift in Sources */,
 				FAFC34CE1CEA9476006BE4DC /* Dive_Buddy.xcdatamodeld in Sources */,
+				FAFC303F1CEC42E80087884E /* DiveInfo.swift in Sources */,
+				FA3786751CEAC09100B729E2 /* NewDiveTableViewController.swift in Sources */,
+				FAFC30431CEE57CD0087884E /* PickLocationViewController.swift in Sources */,
+				FA865FEA1CFFED7500901A82 /* ExamineDiveTableViewController.swift in Sources */,
+				FAFC303C1CEC42E80087884E /* Image+CoreDataProperties.swift in Sources */,
+				FA5CE6C31D043FBB00E29012 /* SettingsViewController.swift in Sources */,
+				FA865FE51CFA6B1E00901A82 /* UploadPhotoViewCell.swift in Sources */,
+				FAFC303D1CEC42E80087884E /* Image.swift in Sources */,
+				FAFC303E1CEC42E80087884E /* DiveInfo+CoreDataProperties.swift in Sources */,
+				FADCE2341D042CEC002AA21F /* InspectImageViewController.swift in Sources */,
+				FAC3DEEE1CF92F5F00AD7AB7 /* CoreDataTableViewController.swift in Sources */,
+				FA865FE81CFA6DA100901A82 /* PhotoTableViewCell.swift in Sources */,
+				FAC3DEF01CF95EAF00AD7AB7 /* DiveTableViewCell.swift in Sources */,
+				FAC3DEEC1CF92DE400AD7AB7 /* DiveHistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +336,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Dive Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.engel.alex.Dive-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +350,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Dive Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.engel.alex.Dive-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

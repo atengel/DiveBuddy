@@ -1,0 +1,84 @@
+user:atengel (Engel, Alex)
+
+README
+
+Welcome to Dive Buddy!
+
+Twitter Credentials:
+
+Username: DiveBuddyTest
+Password: cs193p
+
+Facebook Credentials: 
+
+Username: ke7iwh@engel.org
+Password: cs193p
+
+To get started please load the test data by clicking on the gear icon in the upper left of the first view controller and then clicking the button called ‘Load test data’. This will load 5 test dives into core data. These test dives are lacking pictures, but pictures can be added by editing the dive. Additionally, the hours of the start time and end time sections are not working with the hardcoding for some reason, so the time values that appear for each dive are nonsensical. This is not the case when creating a new dive manually.
+
+Self-grading:
+
+APIS
+
+Core Data-2
+
+TableView-3 (Add swipe to delete, static and dynamic etc)
+
+CollectionView-2(Having collection inside table view required extension)
+
+Storyboard design-2 (Had to control Navigation controller programmatically at times)
+
+controls-2 (Wide variety of controls used for a variety of different events)
+
+Autolayout-1 (Used auto layout constraints liberally)
+
+Location API-2 (Allow user to both search for location that is then displayed on map, additionally reverse geocode lat/lon to get place title from coordinates if user drops a pin manually)
+
+ImagePicker-1 (Allow users to upload pictures from their library)
+
+Gesture-1 (Map view allows user to long press and drop a pin, also inspect image view allows for gesture controls)
+
+Date-2 (Use aspects of date API throughout for both time and date. Additionally use NSCalendar to calculate duration between two times)
+
+SearchController-2 (User can search for locations on the map view when creating a new dive)
+Picker-2 (NCIL, use picker for both date and time selections)
+
+Social-2 (Allow the user to post to both Twitter and Facebook)
+
+UIActivityView-1 (Simple usage to allow the user more options to share the dive such as email)
+
+ContactsUI-2 (NCIL Allows the user to select a contact to use as their dive buddy
+
+Settings-1 (Use NSUserDefaults for units setting. Because of time constraints, this setting only changes labels, but I plan to extend it to change the values themselves. Still, shows understanding of Settings API)
+
+Segue-1 (trigger segue programmatically in several cases)
+
+Misc-2 Various
+
+
+Creativity 2
+UIDesign2
+Style 2
+Stability 2
+
+Total: 38
+
+Walkthrough: 
+To start, click on the gear icon in the upper left and then click load test data. Now, go back to the dive history view and you should see 5 hardcoded dives appear. 
+
+Now, click on the add dive button in the upper right. This will transition you to a form input where you will enter the details of your dive. 
+
+In particular, focus on the use of Contacts, Location Services, and Picker classes. In the map view, notice the search controller. Try both searching for a location and selecting one manually with a long press. Press back to use this location. Note how a manually selected point will have been reverse geocoded to a location name.
+
+ Scroll to the bottom of the new dive view and select add photos. This will allow you to add photos from your library. Note how they appear in a collection view inside of a table view
+
+After adding photos, click log dive. This will transition you back to the history view where you can see your newly created dive appear. Click on it, and transition to a view where you can see all the details of your dive.
+
+Click the options button in the upper right. Test out posting to Twitter and Facebook using the credentials supplied above. Now click on edit dive. This will bring you back to the same controller used to create the dive, except any information that you have already supplied will already be filled in for you. Edit any information you want and click save dive. This will transition you back to the screen with all your dive information and will be updated with the new information you supplied.
+
+Click options again. Click more. Use the UIActivityViewController to see other options that can be done with your dive info.
+
+Scroll to the bottom of the dive information page. Click on one of the photos. This will take you to an image inspector where you can zoom and scroll on the image. Finally, return to the dive history view and click the gear icon. Flip the switch to tell the app to use metric units. Note the unit change of the labels on the new dive view and the dive information view.
+
+Finally, return to the dive history view. Swipe left on a dive to delete it.
+
